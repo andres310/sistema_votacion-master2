@@ -23,10 +23,10 @@ public class SistemaDapApplication implements CommandLineRunner {
 	IDepartamentosRepository departamentoRepo;
 
 	public void run(String... args) throws Exception {
-		guardarTodo();
+		//guardarTodosDepartamentos();
 	}
 
-	private void guardarTodo() {
+	private void guardarTodosDepartamentos() {
 		List<Departamentos> departamentos = new LinkedList<Departamentos>();
 
 		Departamentos departamento1 = new Departamentos();
