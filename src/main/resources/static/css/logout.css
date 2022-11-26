@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+button{
+		background:linear-gradient(to bottom, #1C2045,#2F3745);
+		border:0;
+}
+a{
+	color: #BAC7DC;
+	
+}
+
+a:hover{
+	color: white;
+}
+h5{
+	color: white;
+}
+
+nav{
+	background:linear-gradient(to bottom, #1C2045,#2F3745);
+}
+li{
+		background:linear-gradient(to bottom, #1C2045,#2F3745);
+		margin: left;
+}

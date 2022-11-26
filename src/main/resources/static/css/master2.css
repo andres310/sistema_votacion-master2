@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/bg-Patria.jpg) no-repeat center top;
+
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+}
+
+/*303845 */
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #434e5f;
+    color: #ffff;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+
+
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    background-color: rgb(5, 5, 5);
+    filter: invert();
+
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #ffff;
+    font-size: 16px;
+
+    
+
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #6A7C98;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #61718B;
+    color: #FFF;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffff;
+}
+
+.login-box a:hover {
+    color: darkgrey;
+}
+.login-box .imagen {
+
+    width:  290px;
+    height: auto;
+    position: absolute;
+    bottom: -60px;
+    left: 15px;
+  
+  
+  }
+  
+  .login-box .imagen2 {
+  
+    width:  290px;
+    height: auto;
+    position: absolute;
+    bottom: -60px;
+    left: 15px;
+    filter: invert();
+  
+  }
+
+  .login-box .imagen {
+
+    width:  310px;
+    height: auto;
+    position: absolute;
+    bottom: -60px;
+    left: 0px;
+
+
+}
+
+.login-box .imagen2 {
+
+    width:  310px;
+    height: auto;
+    position: absolute;
+    bottom: -60px;
+    left: 1px;
+    filter: invert();
+
+}
+
+
+
+::placeholder { 
+    color: rgb(196, 196, 196)
+
+    ; }
+.saturate {
+    filter: saturate(3);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.contrast {
+    filter: contrast(160%);
+}
+
+.brightness {
+    filter: brightness(0.25);
+}
+
+.blur {
+    filter: blur(6px);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.huerotate {
+    filter: hue-rotate(180deg);
+}
+
+.rss.opacity {
+    filter: opacity(50%);
+}

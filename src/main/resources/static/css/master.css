@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/img/BG-Admin2.png) no-repeat center top;
+
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+/*303845 */
+.container {
+  width: 320px;
+  height: 420px;
+  background: #FFF;
+  color: #0A0A0A;
+  top: 50%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+
+
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  background-color: #313945;
+}
+
+
+.h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.container input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #0A0A0A;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #0A0A0A;
+  font-size: 16px;
+}
+
+.container input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #6A7C98;
+  color: #0A0A0A;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.container input[type="submit"]:hover {
+  cursor: pointer;
+  background: #61718B;
+  color: #FFF;
+}
+
+.container a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #0A0A0A;
+}
+
+.container a:hover {
+  color: darkgrey;
+}
+
+.container .imagen {
+
+  width:  310px;
+  height: auto;
+  position: absolute;
+  bottom: -60px;
+  left: 1px;
+
+
+}
+
+.container .imagen2 {
+
+  width:  310px;
+  height: auto;
+  position: absolute;
+  bottom: -60px;
+  left: 1px;
+  filter: invert();
+
+}
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(6px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }

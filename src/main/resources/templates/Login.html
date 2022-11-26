@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<link th:href="@{/css/master.css}" rel="stylesheet" />
+</head>
+<body>
+
+
+
+
+	<br>
+	<br>
+
+	<div class="container">
+	<img src="img/LOGOts2.png" class="avatar" alt="Avatar Image">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+			
+				<h1>Inicio de sesión</h1>
+				<form th:action="@{/login}" method="post">
+
+					<div th:if=${param.error}>
+						<div class="alert alert-danger">Usuario o contraseña
+							inválidos</div>
+					</div>
+
+					<div th:if=${param.logout}>
+						<div class="alert alert-info">Ha cerrado sesión exitosamente
+						</div>
+					</div>
+
+
+					<div class="form-group">
+						<label for="username">DUI : </label> <input id="username"
+							name="username" type="text" class="form-control" required
+							autofocus="autofocus" placeholder="Digite DUI (Sin guiones)">
+					</div>
+
+					<div class="form-group">
+						<label for="password">Password : </label> <input id="contrasena"
+							type="password" name="password" class="form-control" required
+							autofocus="autofocus" placeholder="Digite su contraseña">
+					</div>
+
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<input type="submit" class="form-control btn btn-primary"
+									name="login-submit" id="login-submit" value="Iniciar sesión" />
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="form-group">
+					<span>Aun no te haz registrado? <a th:href="@{/registro}">hazlo
+							aqui</a></span>
+				</div>
+
+			</div>
+		</div>
+		<img src="/img/LogoGOBES.svg" class="imagen" alt="gob image"> <img
+			src="/img/LogoGOBES.svg" class="imagen2" alt="gob image">
+	</div>
+
+
+
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous">
+		
+	</script>
+</body>
+</html>
